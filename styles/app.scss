@@ -1,9 +1,10 @@
 // @import 'yoga';
 // @import 'normalize';
 
-// $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
-// @import 'font-awesome';
+$fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
+@import 'font-awesome';
 @import 'box-sizing';
+@import 'cssgram';
 
 $brand-dark-gray: #212121;
 $brand-white: #f4f4f4;
@@ -11,3 +12,41 @@ $brand-light-gray: #585558;
 $brand-red: #ef5350;
 $gutter: 2rem;
 $max-content-width: 60rem;
+
+
+body {
+  margin: 0 auto;
+  font-family: sans-serif;
+
+  background: $brand-dark-gray;
+}
+
+.main {
+  color: $brand-white;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+.avatar {
+  border-radius: 50%;
+}
+
+.fa-fa-caret-down {
+  margin-top: -5%;
+}
+
+.site-title {
+  margin-top: 3.5%;
+}
