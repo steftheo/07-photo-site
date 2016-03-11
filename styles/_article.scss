@@ -3,6 +3,7 @@
 @import 'cssgram';
 @import 'base';
 
+
 .article__info {
   display: flex;
   flex-direction: column;
@@ -19,8 +20,9 @@
 .article__info-text {
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: flex-start;
   margin-left: -7rem;
+  margin-top: -1.5rem;
 }
 
 .photo__date-stamp {
@@ -34,6 +36,8 @@
 }
 
 .photo__details {
+  display: flex;
+  flex-direction: column;
   margin-top: -29rem;
   margin-left: 47.5rem;
   color: $brand-white;
@@ -47,4 +51,8 @@
 .fa {
   padding-right: 0.5rem;
   color: $brand-light-gray;
+}
+
+.article-2 {
+  margin-top: 15rem;
 }

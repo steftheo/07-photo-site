@@ -51,10 +51,16 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
   margin: 0;
 }
 
+.avatar__gram {
+  @extend %inkwell;
+}
+
 .avatar {
   border-radius: 50%;
 }
 
-.fa-fa-caret-down {
-  margin-top: -5%;
+.fa-caret-down {
+  margin-top: -3rem;
+  color: $brand-red;
+
 }
