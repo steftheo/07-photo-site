@@ -5,31 +5,43 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 @import 'font-awesome';
 @import 'box-sizing';
 @import 'cssgram';
+@import 'article';
+@import 'base';
 
-$brand-dark-gray: #212121;
-$brand-white: #f4f4f4;
-$brand-light-gray: #585558;
-$brand-red: #ef5350;
-$gutter: 2rem;
-$max-content-width: 60rem;
-
-
-body {
+.navbar {
+  display: flex;
+  flex-direction: row;
   margin: 0 auto;
-  font-family: sans-serif;
 
-  background: $brand-dark-gray;
+  color: $brand-light-gray;
+}
+
+.logo {
+  display: flex;
+}
+
+.name {
+  color: $brand-red;
+}
+
+.menu__right {
+  display: flex;
+  margin-right: 5rem;
+  margin-left: 37rem;
+
+}
+
+.work {
+  margin-right: 5rem;
+  margin-left: 5rem;
+
+  color: $brand-red;
 }
 
 .main {
   color: $brand-white;
 }
 
-.row {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
 
 .header {
   display: flex;
@@ -45,8 +57,4 @@ body {
 
 .fa-fa-caret-down {
   margin-top: -5%;
-}
-
-.site-title {
-  margin-top: 3.5%;
 }

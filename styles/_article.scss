@@ -1,0 +1,29 @@
+@import 'font-awesome';
+@import 'box-sizing';
+@import 'cssgram';
+@import 'base';
+
+.article__info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 1rem;
+}
+
+.article__info-text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: -7rem;
+}
+
+.photo__date-stamp {
+  color: $brand-light-gray;
+  font-size: 14px;
+}
+
+.picture__title {
+  padding-right: 0.5rem;
+  color: $brand-white;
+}
