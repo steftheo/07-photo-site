@@ -8,7 +8,12 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin: auto;
   padding-top: 1rem;
+}
+
+.article__photo-gram {
+  @extend %inkwell;
 }
 
 .article__info-text {
@@ -26,4 +31,20 @@
 .picture__title {
   padding-right: 0.5rem;
   color: $brand-white;
+}
+
+.photo__details {
+  margin-top: -29rem;
+  margin-left: 47.5rem;
+  color: $brand-white;
+}
+
+.info__camera {
+  color: $brand-red;
+  font-weight: bold;
+}
+
+.fa {
+  padding-right: 0.5rem;
+  color: $brand-light-gray;
 }
