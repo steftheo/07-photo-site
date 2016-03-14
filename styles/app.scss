@@ -12,24 +12,37 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 .navbar {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   margin: auto;
 
   color: $brand-light-gray;
 }
 
+.menu__left {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 20rem;
+  margin-top: 1rem;
+}
+
 .logo {
   display: flex;
+  font-size: 1.5rem;
 }
 
 .name {
+  margin: 0;
   color: $brand-red;
+}
+
+.site-name {
+  margin: 0;
 }
 
 .menu__right {
   display: flex;
-  margin-right: 3rem;
-  margin-left: 37rem;
-
+  padding-right: 2rem;
 }
 
 .work {
