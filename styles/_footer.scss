@@ -1,0 +1,35 @@
+@import 'font-awesome';
+@import 'box-sizing';
+@import 'cssgram';
+@import 'base';
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 15rem;
+}
+
+.footer__title {
+  margin: auto;
+  color: $brand-white;
+  text-align: center;
+}
+
+.footer__article-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+  color: $brand-light-gray;
+}
+
+.footer__article-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+  color: $brand-light-gray;
+}
