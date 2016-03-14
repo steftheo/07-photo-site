@@ -17,6 +17,11 @@
   @extend %inkwell;
 }
 
+.article__photo {
+  display: flex;
+  justify-content: center;
+}
+
 .article__info-text {
   display: flex;
   flex-direction: row;
@@ -38,8 +43,10 @@
 .photo__details {
   display: flex;
   flex-direction: column;
-  margin-top: -29rem;
-  margin-left: 47.5rem;
+  align-content: flex-end;
+  justify-content: flex-end;
+  margin-top: -27rem;
+  margin-left: 46rem;
   color: $brand-white;
 }
 
