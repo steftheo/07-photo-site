@@ -58,23 +58,34 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 
 
 .header {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  position: relative;
+
   margin: 0;
 }
 
 .avatar__gram {
   @extend %inkwell;
+  max-width: 10rem;
+
+  margin: auto;
+  border-radius: 50%;
 }
 
 .avatar {
+
+
   border-radius: 50%;
 }
 
 .fa-caret-down {
-  margin-top: -3rem;
+  position: absolute;
+  margin: 0;
+  top: 36%;
+  right: 49.3%;
   color: $brand-red;
+}
+
+.site-title {
+  text-align: center;
 
 }
