@@ -9,6 +9,25 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 @import 'base';
 @import 'footer';
 
+@media (max-width: 600) and (min-width: 300px) {
+  @import 'views/phone';
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  max-width: 100vw;
+  min-height: 100vw;
+  margin: auto;
+  background: $brand-dark-gray;
+  color: $brand-light-gray;
+  font-family: sans-serif;
+}
+
+main {
+  flex-grow: 1;
+}
+
 .navbar {
   display: flex;
   flex-direction: row;
