@@ -1,6 +1,6 @@
 // @import 'font-awesome';
 // @import 'box-sizing';
-// @import 'cssgram';
+@import 'cssgram';
 @import 'base';
 
 main {
@@ -12,70 +12,67 @@ main {
   font-family: sans-serif;
 }
 
-.article__info {
-  display: flex;
-  justify-content: center;
-}
-
-.article {
+.row {
   display: flex;
   justify-content: flex-end;
   width: 100%;
   margin-top: $gutter;
 }
 
-.pic-and-details {
-  width: 50%;
-}
-
-.article__photo {
-  width: 100%;
-  @extend %inkwell;
-}
-
-.article__info-text {
+.main__article {
   display: flex;
+  justify-content: flex-end;
 }
 
-.photo__date-stamp {
-  margin-top: 0.4rem;
+.article-photo {
+  width: 100%;
+
 }
 
-.picture__title {
+// .crazy-cage-2 {
+//   max-width: 300px;
+// }
+
+.name-date {
+  display: flex;
+
+
+}
+
+.pic-name {
   margin-top: 0;
   margin-right: $gutter;
   color: $brand-white;
 }
 
-.photo__details {
+.date {
+  margin-top: 0.4rem;
+}
+
+.pic-and-author {
   width: 50%;
+}
+
+.pic-details {
+  width: 30%;
+  margin-top: 0.5rem;
   padding-left: 1rem;
   list-style-type: none;
-  margin-top: 0.5rem;
 }
 
 .pic-details__item {
   font-size: 1rem;
 }
 
-.camera {
-  display: flex;
-  align-items: center;
-}
-
-.info__camera {
+.pic-details__item__red {
   margin-left: 0.3rem;
   color: $brand-red;
 }
 
-// .fa {
-//   padding-right: 0.5rem;
-//   color: $brand-light-gray;
-// }
-
-// .article-2 {
-//   margin-top: 20%;
-// }
+.camera__model {
+  display: flex;
+  align-items: center;
+}
 
 .end-of-main {
   display: flex;
@@ -88,5 +85,5 @@ main {
 }
 
 .stefan {
-  margin-left: 1rem;;
+  margin-left: 1rem;
 }
