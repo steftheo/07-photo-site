@@ -1,0 +1,33 @@
+.header {
+  position: relative;
+  width: 8.3rem;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.avatar__gram {
+  border-radius: 50%;
+  @extend %inkwell;
+}
+
+.fa-caret-down {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  color: $brand-red;
+  font-size: 2rem;
+  text-align: middle;
+}
+
+.site-title {
+  position: absolute;
+  top: 80%;
+  left: 14%;
+  margin: 0;
+  color: $brand-white;
+  font-size: 1.2rem;
+
+}
