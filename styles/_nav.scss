@@ -1,0 +1,58 @@
+@import 'base';
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  margin: $gutter;
+}
+
+.nav__left {
+  display: flex;
+  justify-content: space-between;
+  width: 18rem;
+}
+
+.logo {
+  align-self: center;
+  margin: 0;
+  font-size: 2rem;
+
+}
+
+.name {
+  margin-right: 0.3rem;
+  color: $brand-white;
+}
+
+.nav__links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 10rem;
+  text-decoration: none;
+}
+
+.nav__links-item {
+  text-decoration: none;
+}
+
+.about {
+  color: $brand-light-gray;
+  text-decoration: none;
+}
+
+.work {
+  color: $brand-red;
+  text-decoration: none;
+
+}
+
+.contact {
+  color: $brand-light-gray;
+  text-decoration: none;
+
+}
+
+.nav__links__icon {
+  display: none;
+}
